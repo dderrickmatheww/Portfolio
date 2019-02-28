@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(background.jpg) repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    color: #777;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header {
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+}
+
+
+header h1 {
+    background: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+}
+nav {
+    width: 400px;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+
+}
+nav a {
+    color: #777;
+   padding: 5px 15px;
+    border-right: 2px solid #777;
+    text-decoration: none;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+
+}
+
+.bio {
+    background: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+    overflow: auto;
+    
+}
+
+p {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+form label {
+font-size: 18px;
+display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form textarea {
+
+    height: 300px;
+
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 2px solid #ccc;
+}
+footer {
+    background: #666;
+    border-top: 3px solid #4aaaa5;
+    color: #ccc;
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.me {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 2px double #ccc;
+    width: 200px;
+    height: 400px;
+    display: block;
+    text-shadow: 2px 2px #ccc;
+}
+
+.port-item {
+
+position: relative;
+margin-bottom: 20px;
+float: left;
+width: 45%;
+height: 100px;
+padding: 128px 0 15px 0;
+}
+
+.port-item:nth-last-of-type(even) {
+    float: right;
+}
+
+.port-item h4 {
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#port1 {
+    background: url(../Homework1/hangman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #port2 {
+    background: url(../Homework1/riw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #port3 {
+    background-image: url(../Homework1/rpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #port4 {
+    background-image: url(../Homework1/rps.png);
+   
+    }
+    
+    #port5 {
+        background-image: url(../Homework1/trivia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+
+    .contactlinks {
+       top: 90px;
+       right: 0;
+        position: absolute;
+        display: inline;
+        padding: 3px;
+        float: right;
+       
+    }
+    
+    .linkedcon {
+        width: 150px;
+        height: 200px;
+        border: 2px solid #ccc;
+        margin-top: 30px;
+        
+
+    }
+
+    @media screen and (max-width: 640px) {
+    .wrap {
+        width: 100%;
+        
+    }
+    .nav {
+       width: 100%;
+    }
+
+    .port-item {
+        width: 100%;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+    .bio {
+        border: none;
+    }
+    .linkedcon {
+        
+        width: 20%;
+        height: 30%;
+        margin-top: 2%;
+        
+    }
+
+    .contactlinks {
+        text-align: center;
+    }
+    }
+
+    @media screen and  (max-width: 768px) {
+        .wrap {
+            width: 100%;
+            
+        }
+        .port-item {
+            width: 100%;
+        }
+        nav {
+           width: 100%;
+           text-align: center;
+           
+        }
+    
+        header h1 {
+            width: 100%;
+        }
+        .bio {
+            border-top: none;
+        }
+
+        .linkedcon {
+            position: relative;
+            width: 10%;
+            height: 30%;
+            margin-top: 102%;
+            
+        }
+    
+        .contactlinks {
+            text-align: center;
+        }
+
+    }
+
+    @media screen and  (max-width: 980px) {
+        .wrap {
+            width: 100%;
+        }
+        .bio {
+            margin-top: 20%;
+        }
+        .port-item {
+            width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            width: 100%;
+            margin-top: 45%;
+        }
+
+        .linkedcon {
+            position: relative;
+            width: 20%;
+            height: 30%;
+            margin-top: 100%;
+            letter-spacing: 2%;
+            
+        }
+    
+        .contactlinks {
+            text-align: center;
+        }
+    }
