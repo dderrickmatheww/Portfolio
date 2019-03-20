@@ -159,13 +159,13 @@ padding: 128px 0 15px 0;
 }
 
 #port1 {
-    background: url(../../Documents/Responsive-Portfolio/apex.PNG);
+    background: url(/apex.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
     
     #port2 {
-    background: url(../../Documents/Responsive-Portfolio/sly.PNG);
+    background: url(/sly.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
