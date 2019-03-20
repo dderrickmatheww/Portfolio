@@ -159,19 +159,19 @@ padding: 128px 0 15px 0;
 }
 
 #port1 {
-    background: url(/apex.PNG);
+    background: url(../Responsive-Portfolio/apex.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
     
     #port2 {
-    background: url(/sly.PNG);
+    background: url(../Responsive-Portfolio/sly.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
     
     #port3 {
-    background-image: url(../Homework1/rpg.jpg);
+    background-image: url(../Responsive-Portfolio/office.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
