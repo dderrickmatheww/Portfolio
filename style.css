@@ -177,9 +177,11 @@ padding: 128px 0 15px 0;
     }
     
     #port4 {
-    background-image: url(../Homework1/rps.png);
-   
+    background-image: url(../Responsive-Portfolio/gif.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
+    
     
     #port5 {
         background-image: url(../Homework1/trivia.jpg);
