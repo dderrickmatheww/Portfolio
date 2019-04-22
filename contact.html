@@ -1,56 +1,93 @@
 <!DOCTYPE html>
+
 <head>
-        <link href="reset.css" rel="stylesheet" type="text/css"/>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-        <title>Contact</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../Responsive-Portfolio/favicon.ico" rel="icon" type="image/x-icon" />
-    </head>
-    <body>
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Responsive-Portfolio/favicon.ico" rel="icon" type="image/x-icon" />
+    
+</head>
+
+<body>
     <header>
         <div class="wrap">
             <h1>Derrick Montgomery</h1>
-    
+
             <nav>
                 <ul>
                     <li><a href="index.html">About me</a></li>
-              
+
                     <li><a href="portfolio.html">Portfolio</a></li>
-             
+
                     <li><a href="contact.html">Contact</a></li>
-                </ul>  
+                </ul>
             </nav>
         </div>
     </header>
-    
+
     <div class="wrap">
+            <video playsinline autoplay muted loop id="myVideo" width="x" height="y">
+                    <source src="../Responsive-Portfolio/vidbackground2.mp4" type="video/mp4">
+            </video>
+            <div class="fade">
         <section class="bio">
-        <h2> Contact me </h2>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="textname" placeholder="Enter name">
+            <h2> Contact me </h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="textname" placeholder="Enter name">
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Enter email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter email">
 
-        <label for="message">Message:</label>
-        <textarea name="message" id="message"></textarea>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
 
-        <button type="submit">Submit message</button>
+                <button type="submit">Submit message</button>
 
-    </form>
+            </form>
         </section>
-
     </div>
-   
-    
+    <div class="fade">
+        <div class="Icons">
+            <div class="bio">
+                <div class="contactIcons">
+                    <h2 class="text-center conIcon">LinkedIn Profile</h2>
+                    <a href="https://www.linkedin.com/in/dderrickmatheww/">
+                        <img class="contactIconsPics" src="../Responsive-Portfolio/linkedin.gif">
+                    </a>
+                </div>
+                <div class="contactIcons">
+                    <h2 class="text-center conIcon">Git Hub Profile</h2>
+                    <a href="https://github.com/dderrickmatheww">
+                        <img class="contactIconsPics" src="../Responsive-Portfolio/github.gif">
+                    </a>
+                </div>
+                <div class="contactIcons">
+                        <h2 class="text-center conIcon">Facebook Profile</h2>
+                        <a href="https://www.facebook.com/derrick.montgomery.14">
+                            <img class="contactIconsPics" src="../Responsive-Portfolio/facebook2.gif">
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
     <div class="clearfix"></div>
-    
-    </body>
-    
-    
-    <footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../Responsive-Portfolio/script.js"></script>
+</body>
+
+
+<footer class="footer">
     &copy;Copyright
-    </footer>
+</footer>

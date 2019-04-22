@@ -1,17 +1,33 @@
 * {
     box-sizing: border-box;
+   
 }
-
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1000;
+    
+    }
 body {
-    background: url(background.jpg) repeat;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-family: 'Abril Fatface', cursive;
     overflow: auto;
     color: #777;
+    
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .links:hover {
@@ -21,22 +37,28 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background: white;
     border-bottom: 3px solid #ccc;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    
+    
+    
 }
 
 
 header h1 {
-    background: #4aaaa5;
+    background: darkblue;
     color: white;
     display: inline-block;
     padding: 30px;
     font-size: 30px;
+    margin-bottom: 0;
+    -webkit-text-stroke: .1px black;
 }
 nav {
     width: 400px;
     float: right;
     margin-top: 40px;
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 
 nav ul li {
@@ -57,25 +79,41 @@ nav ul li:last-child a {
 }
 
 .bio {
-    background: white;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
     padding: 25px;
-    border: 2px solid #ccc;
+    -webkit-text-stroke: .1px black;
     overflow: auto;
+   
     
+    
+}
+.fade{
+    opacity: 0;
 }
 
 p {
+    font-family: 'Abril Fatface', cursive;
     font-size: 20px;
     line-height: 22px;
-    margin-bottom: 20px;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       letter-spacing: .2px
+   
 }
 
 form label {
+    font-family: 'Abril Fatface', cursive;
 font-size: 18px;
 display: block;
 }
 
 form input, form textarea {
+    font-family: 'Abril Fatface', cursive;
     width: 100%;
     display: block;
     margin: 5px 0 20px 0;
@@ -85,13 +123,14 @@ form input, form textarea {
 }
 
 form textarea {
-
+    font-family: 'Abril Fatface', cursive;
     height: 300px;
 
 }
 
 form button {
-    background: #4aaaa5;
+    background: darkblue;
+    font-family: 'Abril Fatface', cursive;
     color: #fff;
     padding: 10px 20px;
     margin: 10px 0;
@@ -100,15 +139,18 @@ form button {
 }
 footer {
     background: #666;
-    border-top: 3px solid #4aaaa5;
+    font-family: 'Abril Fatface', cursive;
+    border-top: 3px solid darkblue;
     color: #ccc;
     text-align: center;
-    padding: 40px;
-    margin-top: 10%;
+    padding: 30px;
+    margin-top: 5%;
 }
 
+
 h2 {
-    font-size: 24px;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
     padding: 15px 0;
     margin-bottom: 20px;
     border-bottom: 2px solid #ccc;
@@ -132,6 +174,7 @@ float: left;
 width: 45%;
 height: 100px;
 padding: 128px 0 15px 0;
+
 }
 
 .port-item:nth-last-of-type(even) {
@@ -139,7 +182,7 @@ padding: 128px 0 15px 0;
 }
 
 .port-item h4 {
-    background: #4aaaa5;
+    background: darkblue;
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -154,8 +197,11 @@ padding: 128px 0 15px 0;
 
 }
 .wrap {
+   
+    font-family: 'Abril Fatface', cursive;
     width: 960px;
     margin: 0 auto;
+   
 }
 
 #port1 {
@@ -189,7 +235,15 @@ padding: 128px 0 15px 0;
         background-repeat: no-repeat;
     
     }
+    #port6 {
+        background-image: url(../Responsive-Portfolio/hotdrop.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
+    .resume {
+        margin-bottom: 5%;
+    }
     .contactlinks {
        top: 90px;
        right: 0;
@@ -205,11 +259,31 @@ padding: 128px 0 15px 0;
         height: 200px;
         border: 2px solid #ccc;
         margin-top: 30px;
-        
-
     }
+.contactIcons{
 
-   
+width: 33%;
+height: 100%;
+float: left;
+padding: 2%;
+
+}
+.contactIconsPics{
+width: 100%;
+height: 250px;
+}
+.Icons {
+    margin-top: 10%; 
+}
+.links {
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+    -webkit-text-stroke: .1px black;
+}
 
     @media screen and (max-width: 640px) {
     .wrap {
@@ -226,11 +300,15 @@ padding: 128px 0 15px 0;
 
     header h1 {
         width: 100%;
+        text-align: center;
     }
     .bio {
         border: none;
     }
-    
+    .me{
+        width: 100px;
+        height: 200px;
+    }
 
     .contactlinks {
         text-align: center;
@@ -238,6 +316,23 @@ padding: 128px 0 15px 0;
         height: 30%;
         margin-top: 250%;
     }
+    .resume {
+        width: 100%;
+    }
+    nav a {
+        color: white;
+        text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+    -webkit-text-stroke: .1px black;
+    }
+    .contactIconsPics{
+        width: 100%;
+        height: 175px;
+        }
     }
 
     @media screen and  (max-width: 768px) {
@@ -268,11 +363,15 @@ padding: 128px 0 15px 0;
             margin-top: 102%;
             
         }
-    
+        .contactIconsPics{
+            height: 150px;
+        }
         .contactlinks {
             text-align: center;
         }
-
+        .conIcon{
+            font-size: 20px;
+        }
     }
 
     @media screen and  (max-width: 980px) {
