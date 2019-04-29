@@ -168,6 +168,7 @@ h2 {
 
 .port-item {
 
+border: 2px double darkblue;
 position: relative;
 margin-bottom: 20px;
 float: left;
@@ -247,6 +248,10 @@ padding: 128px 0 15px 0;
     }
     .resume {
         margin-bottom: 5%;
+    }
+
+    #resume {
+        border: 2px double darkblue;
     }
     .contactlinks {
        top: 90px;
