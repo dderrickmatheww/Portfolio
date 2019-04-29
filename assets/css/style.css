@@ -205,43 +205,43 @@ padding: 128px 0 15px 0;
 }
 
 #port1 {
-    background: url(../Responsive-Portfolio/apex.PNG);
+    background: url(/assets/images/apex.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
     
     #port2 {
-    background: url(../Responsive-Portfolio/sly.PNG);
+    background: url(/assets/images/sly.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
     
     #port3 {
-    background-image: url(../Responsive-Portfolio/office.PNG);
+    background-image: url(/assets/images/office.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     }
     
     #port4 {
-    background-image: url(../Responsive-Portfolio/gif.png);
+    background-image: url(/assets/images/gif.png);
     background-size: cover;
     background-repeat: no-repeat;
     }
     
     
     #port5 {
-        background-image: url(../Responsive-Portfolio/hafh.PNG);
+        background-image: url(/assets/images/hafh.PNG);
         background-size: cover;
         background-repeat: no-repeat;
     
     }
     #port6 {
-        background-image: url(../Responsive-Portfolio/hotdrop.PNG);
+        background-image: url(/assets/images/hotdrop.PNG);
         background-size: cover;
         background-repeat: no-repeat;
     }
     #port7 {
-        background-image: url(../Responsive-Portfolio/concert-this.PNG);
+        background-image: url(/assets/images/node.PNG);
         background-size: cover;
         background-repeat: no-repeat;
     }
