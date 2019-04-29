@@ -240,7 +240,11 @@ padding: 128px 0 15px 0;
         background-size: cover;
         background-repeat: no-repeat;
     }
-
+    #port7 {
+        background-image: url(../Responsive-Portfolio/concert-this.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .resume {
         margin-bottom: 5%;
     }
