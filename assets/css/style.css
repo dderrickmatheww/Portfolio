@@ -83,10 +83,7 @@ nav ul li:last-child a {
     color: white;
     padding: 25px;
     -webkit-text-stroke: .1px black;
-    overflow: auto;
-   
-    
-    
+    overflow: auto; 
 }
 .fade{
     opacity: 0;
@@ -110,9 +107,12 @@ form label {
     font-family: 'Abril Fatface', cursive;
 font-size: 18px;
 display: block;
+-webkit-text-stroke: .5px black;
+
 }
 
 form input, form textarea {
+   
     font-family: 'Abril Fatface', cursive;
     width: 100%;
     display: block;
@@ -120,6 +120,8 @@ form input, form textarea {
     border: 2px solid #ccc;
     padding: 10px;
     font-size: 16px;
+   
+    color: #ccc;
 }
 
 form textarea {
