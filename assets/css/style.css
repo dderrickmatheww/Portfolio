@@ -248,6 +248,17 @@ padding: 128px 0 15px 0;
         background-size: cover;
         background-repeat: no-repeat;
     }
+    #port8 {
+        background-image: url(../images/sqlnode.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #port9 {
+        background-image: url(../images/sal.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .resume {
         margin-bottom: 5%;
     }
