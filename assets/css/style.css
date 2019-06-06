@@ -291,6 +291,12 @@ padding: 128px 0 15px 0;
         background-repeat: no-repeat;
         background-position: center;
     }
+    #port12 {
+        background-image: url(../images/wordpress.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .resume {
         margin-bottom: 5%;
     }
