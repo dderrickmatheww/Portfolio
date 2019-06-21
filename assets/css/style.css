@@ -393,6 +393,7 @@ height: 250px;
     -webkit-text-stroke: .1px black;
 }
 
+
     @media screen and (max-width: 640px) {
     .wrap {
         width: 100%;
@@ -405,7 +406,9 @@ height: 250px;
     .port-item {
         width: 100%;
     }
-
+    .port-itemMP {
+        width: 100%;
+    }
     header h1 {
         width: 100%;
         text-align: center;
@@ -449,6 +452,9 @@ height: 250px;
             
         }
         .port-item {
+            width: 100%;
+        }
+        .port-itemMP {
             width: 100%;
         }
         nav {
