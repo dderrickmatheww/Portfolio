@@ -275,99 +275,99 @@ padding: 128px 0 15px 0;
     background-repeat: no-repeat;
     }
     
-    #port2 {
-    background: url(../images/sly.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-    
-    #port3 {
-    background-image: url(../images/office.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-    
-    #port4 {
-    background-image: url(../images/gif.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-    
-    
-    #port5 {
-        background-image: url(../images/hafh.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
-    #port6 {
-        background-image: url(../images/hotdrop.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    #port7 {
-        background-image: url(../images/node.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    #port8 {
-        background-image: url(../images/sqlnode.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    #port9 {
-        background-image: url(../images/sal.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #port10 {
-        background-image: url(../images/friendfinder.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #port11 {
-        background-image: url(../images/burger.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #port12 {
-        background-image: url(../images/wordpress.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #port13 {
-        background-image: url(../images/duckery.PNG);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .resume {
-        margin-bottom: 5%;
-    }
+#port2 {
+background: url(../images/sly.PNG);
+background-size: cover;
+background-repeat: no-repeat;
+}
 
-    #resume {
-        border: 2px double darkblue;
-    }
-    .contactlinks {
-       top: 90px;
-       right: 0;
-        position: absolute;
-        display: inline;
-        padding: 3px;
-        float: right;
-       
-    }
+#port3 {
+background-image: url(../images/office.PNG);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#port4 {
+background-image: url(../images/gif.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+#port5 {
+    background-image: url(../images/hafh.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#port6 {
+    background-image: url(../images/hotdrop.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port7 {
+    background-image: url(../images/node.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port8 {
+    background-image: url(../images/sqlnode.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port9 {
+    background-image: url(../images/sal.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#port10 {
+    background-image: url(../images/friendfinder.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#port11 {
+    background-image: url(../images/burger.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#port12 {
+    background-image: url(../images/wordpress.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#port13 {
+    background-image: url(../images/duckery.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.resume {
+    margin-bottom: 5%;
+}
+
+#resume {
+    border: 2px double darkblue;
+}
+.contactlinks {
+    top: 90px;
+    right: 0;
+    position: absolute;
+    display: inline;
+    padding: 3px;
+    float: right;
     
-    .linkedcon {
-        width: 150px;
-        height: 200px;
-        border: 2px solid #ccc;
-        margin-top: 30px;
-    }
+}
+
+.linkedcon {
+    width: 150px;
+    height: 200px;
+    border: 2px solid #ccc;
+    margin-top: 30px;
+}
 .contactIcons{
 
 width: 33%;
@@ -381,16 +381,16 @@ width: 100%;
 height: 250px;
 }
 .Icons {
-    margin-top: 10%; 
+margin-top: 10%; 
 }
 .links {
-    text-shadow:
-    3px 3px 0 #000,
-  -1px -1px 0 #000,  
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-    1px 1px 0 #000;
-    -webkit-text-stroke: .1px black;
+text-shadow:
+3px 3px 0 #000,
+-1px -1px 0 #000,  
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+-webkit-text-stroke: .1px black;
 }
 
 
@@ -496,6 +496,10 @@ height: 250px;
             margin-top: 20%;
         }
         .port-item {
+            width: 100%;
+            height: 100%;
+        }
+        .port-itemMP {
             width: 100%;
             height: 100%;
         }
