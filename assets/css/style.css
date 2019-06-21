@@ -402,6 +402,9 @@ text-shadow:
     .nav {
        width: 100%;
     }
+    .video {
+        margin-top: 10px;
+    }
 
     .port-item {
         width: 100%;
@@ -462,7 +465,9 @@ text-shadow:
            text-align: center;
            
         }
-    
+        .video {
+            margin-top: 10px;
+        }
         header h1 {
             width: 100%;
         }
@@ -517,7 +522,9 @@ text-shadow:
             letter-spacing: 2%;
             
         }
-    
+        .video {
+            margin-top: 10px;
+        }
         .contactlinks {
             text-align: center;
             
