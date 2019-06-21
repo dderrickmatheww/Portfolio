@@ -214,6 +214,48 @@ padding: 128px 0 15px 0;
     width: 100%;
 }
 
+.port-itemMP h4 {
+    background: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+.port-itemMP:nth-last-of-type(even) {
+    float: right;
+}
+
+.port-itemMP {
+
+    border: 2px double darkblue;
+    position: relative;
+    margin-bottom: 20px;
+    float: left;
+    width: 45%;
+    height: 100px;
+    padding: 128px 0 15px 0;
+    
+}
+.port-itemVideo {
+
+    border: 2px double darkblue;
+    position: relative;
+    margin-bottom: 20px;
+    float: left;
+    width: 45%;
+    height: 100px;
+    padding: 128px 0 15px 0;
+    
+}
+.port-itemVideo:nth-last-of-type(even) {
+    float: right;
+}
+.video {
+    margin-bottom: 200px;
+}
+    
 .clearfix {
     display: block;
     clear: both;
@@ -293,6 +335,12 @@ padding: 128px 0 15px 0;
     }
     #port12 {
         background-image: url(../images/wordpress.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #port13 {
+        background-image: url(../images/duckery.PNG);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
