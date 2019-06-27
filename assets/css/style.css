@@ -345,6 +345,12 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position: center;
 }
+#port14 {
+    background-image: url(../images/scraper.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .resume {
     margin-bottom: 5%;
 }
@@ -466,7 +472,7 @@ text-shadow:
            
         }
         .video {
-            margin-top: 10px;
+            margin-top: 5px;
         }
         header h1 {
             width: 100%;
@@ -523,7 +529,7 @@ text-shadow:
             
         }
         .video {
-            margin-top: 10px;
+            margin-top: 5px;
         }
         .contactlinks {
             text-align: center;
