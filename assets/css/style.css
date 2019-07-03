@@ -85,7 +85,6 @@ nav ul li:last-child a {
     font-family: 'Abril Fatface', cursive;
     color: white;
     padding: 25px;
-    -webkit-text-stroke: .1px black;
     overflow: auto; 
 }
 .bio h2 {
@@ -97,18 +96,13 @@ nav ul li:last-child a {
 
 p {
     font-family: 'Abril Fatface', cursive;
-    font-size: 20px;
-    line-height: 22px;
-    text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-       letter-spacing: .2px
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    font-family: 'Sniglet', cursive;
+    color: white;
    
 }
-
+  
 form label {
     font-family: 'Abril Fatface', cursive;
 font-size: 18px;
@@ -166,7 +160,8 @@ footer {
     color: #ccc;
     text-align: center;
     padding: 30px;
-    margin-top: 10%;
+    margin-top: 13%;
+    font-size: 20px;
 }
 
 
@@ -442,9 +437,11 @@ text-shadow:
         height: 30%;
         margin-top: 250%;
     }
-    .resume {
+    .contactIconsPics{
         width: 100%;
-    }
+        height: 200px;
+        }
+   
     nav a {
         color: white;
         text-shadow:
@@ -455,10 +452,7 @@ text-shadow:
     1px 1px 0 #000;
     -webkit-text-stroke: .1px black;
     }
-    .contactIconsPics{
-        width: 100%;
-        height: 175px;
-        }
+   
     }
 
     @media screen and  (max-width: 768px) {
@@ -501,8 +495,8 @@ text-shadow:
             text-align: center;
         }
         .conIcon{
-            font-size: 20px;
-        }
+        font-size: 10px;
+    }
     }
 
     @media screen and  (max-width: 980px) {
@@ -522,6 +516,7 @@ text-shadow:
         }
 
         footer {
+            
             width: 100%;
             margin-top: 45%;
         }
@@ -541,4 +536,5 @@ text-shadow:
             text-align: center;
             
         }
+        
     }
